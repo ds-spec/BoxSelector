@@ -7,7 +7,7 @@ export default function BoxList() {
           {fruits.map((fruit) => (
             <li
               key={fruit}
-              className="text-neutral-800 font-medium tracking-tight text-lg px-4 py-2"
+              className="text-neutral-500 font-sans font-medium tracking-tight text-xl px-4 py-2"
             >
               {fruit}
             </li>
