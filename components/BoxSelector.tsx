@@ -28,7 +28,7 @@ export default function BoxSelector() {
 
   return (
     <div className="relative z-40">
-      <div className="flex justify-between items-center px-4 py-3.5 bg-neutral-100 text-neutral-800 w-3xs rounded-2xl shadow-sm">
+      <div className="flex justify-between items-center px-4 py-3 bg-neutral-100 text-neutral-800 w-3xs rounded-2xl shadow-sm">
         <span
           ref={spanRef}
           className="absolute opacity-0 pointer-events-none whitespace-pre font-sans font-medium tracking-tight text-xl"
